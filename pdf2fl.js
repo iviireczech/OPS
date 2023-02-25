@@ -12,12 +12,11 @@
         }
     }
     
-    swipedetect(el, function(swipedir){
+    swiswipedetect(document, function(swipedir){
     swipedir contains either "none", "left", "right", "top", or "down"
 
     if (swipedir =='left')
         keyDownTextField({keyCode: 39})
-    })
     
     if (swipedir =='right')
         keyDownTextField({keyCode: 37})
