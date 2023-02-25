@@ -12,7 +12,7 @@
         }
     }
     
-    swiswipedetect(document, function(swipedir){
+    swipedetect(document, function(swipedir){
     
     if (swipedir =='left')
         keyDownTextField({keyCode: 39})
